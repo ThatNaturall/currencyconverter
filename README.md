@@ -28,7 +28,7 @@ This Python script allows users to convert currency using an external API.
 
 ## Example
 
-Enter the initial currency (3 characters): ZAR
-Enter the target currency (3 characters): USD
-Enter the amount: 100
-Conversion Result: 5.3547
+- Enter the initial currency (3 characters): ZAR
+- Enter the target currency (3 characters): USD
+- Enter the amount: 100
+- Conversion Result: 5.3547
