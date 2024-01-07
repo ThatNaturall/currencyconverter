@@ -1,9 +1,24 @@
 import requests
 
 def convert_curr():
-    init_currency = input("Enter the initial currency: ")
-    target_currency = input("Enter the target currency: ")
+    
 
+    while True:
+        init_currency = input("Enter the initial currency: ")
+        if not init_currency.isalpha():
+            print("Please input the correct symbol")
+            continue
+        else:
+            break
+
+    while True:
+        target_currency = input("Enter the target currency: ")
+        if not target_currency.isalpha():
+            print("Please input the correct symbol")
+            continue
+        else:
+            break
+    
     while True:
         try:
             amount = float(input('Enter the amount: '))
