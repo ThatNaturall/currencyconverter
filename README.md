@@ -14,7 +14,7 @@ This Python script allows users to convert currency using an external API.
 
 ## Usage
 
-1. Run the script (`python currency_converter.py`).
+1. Run the script (`python main.py`).
 2. Follow the prompts to enter the initial currency, target currency, and amount to convert.
 3. The script will make an API call to perform the currency conversion and display the result.
 
